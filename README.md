@@ -1,6 +1,6 @@
 Web Design Development Foundations-Web Technology Fundamentals
 =====================
-We use the Internet for Banking, Shopping, Ticket Bookings, Music/Entertainment, and Social Media, but do you really know how the web works? Here I introduce the technology that makes the web run, the terminology involved, and how it all comes together to power the websites we know and love. Will cover various term/technologies involved (HTML, CSS, URL, DNS, HTTP, and IPv6), and explains what separates the front end (what we see), from the back end (what we don't) on the web,databases, servers and the technology that makes the web work.
+We use the Internet for Banking, Shopping, Ticket Bookings, Music/Entertainment, and Social Media, but do you really know how the web works? Here I introduce the technology that makes the web run, the terminology involved, and how it all comes together to power the websites we know and love. Will cover various term/technologies involved like (HTML, CSS, JavaScript, URL, DNS, HTTP), and explains what separates the front end (what we see), from the back end (what we don't) on the web,databases, servers and the technology that makes the web work.
 
 Topics include
 ---------------------
@@ -17,7 +17,7 @@ Hi All, I'm Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Exper
 
 This course contents roadmap to becoming a Web Designer/Developer.
 
-### 1.2. Who is this course for?
+### 1.2. Who is this for?
 This course is for every Web/Internet User, fresher as well as an experienced Web Designer/Developer who wants to learn-brush up-cover up various terms/techniques/acronyms/abbreviations used in Web/Internet Design/Development world.
 
 Section 2. Introduction to Web World
@@ -46,84 +46,85 @@ Section 2. Introduction to Web World
 ### 2.2. Client-Server Interaction Model
 #### Browser 
 - The browser is Software/application helps to visit, view, accessing information and take the best use of websites/web pages
-- Popular browsers are Google Chrome, Mozilla Firefox, Internet Explorer, Safari etc.
+- Popular browsers are `Google Chrome, Mozilla Firefox, Internet Explorer, Safari` etc.
 
 #### Request <--> Response Mechanism 
 ```
-1. User Type in URL (Uniform Resource Locator) like http://www.yahoo.com -> 
-2. passed to DNS (Domain Name Server) -> 
-3. DNS translates URL into IP (Internet Protocol) address (172.16.0.0) -> 
+1. User Type in `URL (Uniform Resource Locator)` like `http://www.yahoo.com` -> 
+2. URL passed to `DNS (Domain Name Server)` -> 
+3. DNS translates URL into `IP (Internet Protocol)` address (`172.16.0.0`) -> 
 4. Browser use DNS to locate host server and send request of content (in the form of HTML page, Images, CSS, JavaScript).
 ```
 
 #### Static Sites
-  Simply shows content requested by the client without any additional processing (Static sites pages usually consists of Front end technologies like HTML, CSS, JavaScript)
+  Simply shows content (which is `not change frequently`) requested by the client without any additional processing (Static sites pages usually consists of Front end technologies like HTML, CSS, JavaScript)
   
 #### Dynamic Sites
-  First Business Logic execute by Web Applications like ASP, PHP, Ruby on Rails etc. than browser shows content requested by the client (Dynamic sites pages usually consists of Front end technologies like HTML, CSS, JavaScript, in combination with some Back end technology like ASP, PHP, Ruby on Rails etc.)
+  First Business Logic execute by Web Applications like ASP, PHP, Ruby on Rails etc. than browser shows content (`latest/updated`) requested by the client (Dynamic sites pages usually consists of Front end technologies like HTML, CSS, JavaScript, in combination with some Back end technology like ASP, PHP, Ruby on Rails etc.)
 
 ### 2.3. DNS (Domain Name Server)
-- Every site have unique IP (Internet Protocol) address used to identify location (http://www.google.com = 169.20.127.243)
-- DNS (Domain Name Server) is like Internets phone book which stores unique website and its IP (Internet Protocol) address for each and every website
+- Every site have unique `IP (Internet Protocol)` address used to identify location `(http://www.google.com = 169.20.127.243)`
+- DNS (Domain Name Server) is like `Internets phone book` which stores unique website and its IP (Internet Protocol) address for each and every website
 - IP Address == Domain Name Server (172.16.0.0 == domain name http://www.yahoo.com or so)
 
 ### 2.4. Internet Protocol
 - Protocols are simple languages/standards/set of rules through which computers share information which each other
 - Internet wouldn't work at all without Protocols
+
 - Different/multiple layers of protocols
-  - Application Layer (creation & sharing of data over the web)
+  - **Application Layer (creation & sharing of data over the web)**
     - HTTP (Hyper Text Transfer Protocol)
     - FTP (File Transfer Protocol)
     - SMTP (Simple Mail Transfer Protocol)
     - DNS (Domain Name Server)
     - RIP (Routing Information Protocol)
     - SNMP (Simple Network Management Protocol)
-  - Transport Layer (communication)
+  - **Transport Layer (communication)**
     - TCP (Transmission Control Protocol and Internet Protocol created in 1973)
     - UDP (User Datagram Protocol)
-  - Internet Layer (address and routing structure of data)
+  - **Internet Layer (address and routing structure of data)**
     - IPv4 (Internet Protocol Version 4)
     - IPv6 (Internet Protocol Version 6)
 
 ### 2.5. HTTP (Hyper Text Transfer Protocol)
-- Standard protocol for transferring data/resources over the Web
+- Standard protocol for `transferring data/resources over the Web`
 - In case of HTTP, Browsers are HTTP Clients, send HTTP request and Servers are HTTP Servers, send the HTTP response to transfer data with a standardized format
-- HTTP is one-way stateless protocols, it simply means that once the REQUEST sent & RECEIVED than that state is forgotten ie discarded by the browser and web server, which makes HTTP very much simple and efficient
+- HTTP is one-way `stateless protocols`, it simply means that once the REQUEST sent & RECEIVED than that state is forgotten ie discarded by the browser and web server, which makes HTTP very much simple and efficient
 - Due to one way stateless nature its difficult to send and receive OR upload and download large files with HTTP.
 
 #### Some Common web protocols
-  ##### FTP (File Transfer Protocol)
-  Typically used to transfer large files and its ideal for uploading or downloading files to your site
-
-  ##### SMTP (Simple Mail Transfer Protocol)
-  The Standard web protocol for sending email across the web. Most email clients use SMTP for sending and receiving emails
-
-  ##### POP (Post Office Protocol) 
-  POP typically used to receive emails.
-
-  ##### RTP (Real-Time Transfer Protocol) 
-  Standard protocol for delivering/serving audio or video over the web. Its commonly used in voice over and chat applications.
-
-  ##### RTMP (Real Time Messaging Protocol)
-  Developed by Macromedia (Adobe Corp.) for streaming audio video and data over the Internet, between a Flash player and a server.
-
-  ##### HTTPS (Hypertext Transfer Protocol Secure)
+- **FTP (File Transfer Protocol)**
+  Typically used to `transfer large files` and its ideal for uploading or downloading files to your site
+- **SMTP (Simple Mail Transfer Protocol)**
+  The Standard web protocol for `sending email` across the web. Most email clients use SMTP for sending and receiving emails
+- **POP (Post Office Protocol)**
+  POP typically used to `receive emails`.
+- **RTP (Real-Time Transfer Protocol)**
+  Standard protocol for `delivering/serving audio or video` over the web. Its commonly used in voice over and chat applications.
+- **RTMP (Real Time Messaging Protocol)**
+  Developed by Macromedia (Adobe Corp.) for `streaming audio video and data` over the Internet, between a Flash player and a server.
+- **HTTPS (Hypertext Transfer Protocol Secure)**
   HTTP layered with a security protocol. Usually used for e-commerce or other secure transactions, payment gateways.
 
 ### 2.6. URL (Uniform Resource Locator)
 URL Uniform Resource Locator OR (Universal Resource Locator) specifies its location on a computer network (web address, web path, web site name).
 
 #### Anatomy/contains of URL
-`URL = http://www.yahoo.com`
-http = protocol
-//www.yahoo.com:8080 = resource name
-  www = sub-domain (Most of cases sub-domain is not required ie you can type http://yahoo.com)
-  yahoo = domain name
-  com = top-level domain
+`URL = http://www.yahoo.com` <br/>
 
-**URL path/port**
+| URL Parts             | Meaning/Description       |
+| -------------         |:-------------------------:|
+| http                  | protocol                  |
+| //www.yahoo.com:8080  | resource name             | 
+| www                   | sub-domain (Most of cases sub-domain is not required ie you can type http://yahoo.com) |
+| yahoo                 | domain name               |
+| com                   | top-level domain          |
+
+#### URL path/port
+
   http://www.yahoo.com/products/product1.html
-  http://www.yahoo.com`:80` (80 = port number (80 is default port))
+
+  http://www.yahoo.com:80 (`80 = port number (80 is default port`))
 
 #### Top level domain 
  - .com
@@ -151,7 +152,7 @@ The browser uses HTTP to communicate with Web Server and request pages, content.
 | Blink         | Google Chrome, Opera 14+ |
 
 ### 2.8. W3C and Web standards (World Wide Web Consortium)
-- W3C (World Wide Web Consortium) is main International Standards Organization for the World Wide Web help in Developing protocols and guidelines that ensure long-term growth for the Web
+- `W3C (World Wide Web Consortium) is main International Standards Organization for the World Wide Web help in `developing protocols and guidelines` that ensure long-term growth for the Web
 - W3C (World Wide Web Consortium) started in the year 1994 to issue recommendations for web technologies
 - Check web standards for consistent design (The Web Standard Project): www.webstandards.org
 - W3C website: https://www.w3.org/
@@ -178,9 +179,9 @@ Web stacks are groups of software that work with each other to build and process
 Section 3. Introduction to Front-End Technology
 ---------------------
 ### 3.1. Front End Design (Client Side)
-**Front End (Client Side) Design refers to:**
-- The visual part/User Interface layer (what we see) of websites/applications
-- Front End Design is typically the UI, Layout, typography/fonts, images and many other visual elements/aspects shown on the web page and their styling.
+#### Front End (Client Side) Design refers to:
+- The `visual part/User Interface layer (what we see)` of websites/applications
+- Front End Design is typically the `UI, Layout, typography/fonts, images` and many other visual elements/aspects shown on the web page and their styling.
 - One can also refer it as usability and user experience design as well
 
 #### 3 pillars / core Languages/technologies used for Frond End Design/Development 
@@ -278,14 +279,14 @@ Section 3. Introduction to Front-End Technology
 
 | HTML Version    | DTD           |
 | -------------   |:-------------:|
-| HTML5           |  Document Type Declaration (<!DOCTYPE html> |
-| XHTML           |  Document Type Definition (.DTD file) <!DOC TYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> | 
-| HTML4           |  Document Type Definition (.DTD file) <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> |
+| HTML5           |  Document Type Declaration (&lt;!DOCTYPE html&gt; |
+| XHTML           |  Document Type Definition (.DTD file) &lt;!DOC TYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt; | 
+| HTML4           |  Document Type Definition (.DTD file) &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt; |
 
 #### Tags
 - Tags are html commands/set of instructions to create web page with specific UI element
 - Tags are used to identify content like `<h1> = heading 1`, `<p> = paragraph` etc.
-- HTML contains tags which are used to identify elements and structure pages example <header>,<table>,<li>,<img>
+- HTML contains tags which are used to identify elements and structure pages example `<header>,<table>,<li>,<img>`
 - `<head>` tag consists of non visual elements, meta tags, links to  external .css, .js files and libraries
 - `<body>` tag contents all visual elements which appears on web page
 
@@ -310,7 +311,7 @@ Section 3. Introduction to Front-End Technology
 ```
 
 ### 3.5. JavaScript
-- Created and introduced by Brendan Eich (Netscape) in 1995 to increase and expand the capabilities of the native browser.
+- Created and introduced by `Brendan Eich (Netscape) in 1995` to increase and expand the capabilities of the native browser.
 - A client-side scripting language used to add interactivity and functionality to websites 
 - JavaScript it has nothing to do with Java ...!!! NOT AT RELATED to JAVA)
 
@@ -501,7 +502,7 @@ Any programming/scripting that runs on the web server is referred to as Server S
 - Does the CMS allow custom layouts
 
 #### Popular CMS
-- WordPress, Jhoomla, Drupal, Expression Engine, Radiant
+- `WordPress, Jhoomla, Drupal, Expression Engine, Radiant`
 - www.expressionengine.com
 - www.madebyfrog.com
 - www.drupal.org
