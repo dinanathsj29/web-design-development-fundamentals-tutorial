@@ -264,11 +264,11 @@ Section 3. Introduction to Front-End Technology
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Document</title>
+      <title>Basic HTML</title>
     </head>
 
     <body>
-      
+      <p>This is Basic HTML page </p>
     </body>
 
   </html>
@@ -298,9 +298,9 @@ Section 3. Introduction to Front-End Technology
 - CSS is presentational, styling, formatting language developed to control look and feel of HTML files
 - Presentational markup tags like `<font> <b> <i> <u>` etc discouraged or deprecated as style-sheet language like CSS developed to control the presentation of HTML documents
 - Styles can be written in different ways:
-  - **external style**: `style.css` (separation of concern)
-  - **embedded/internal styles**: `<style> </style>`
-  - **inline styles**: `<p styles="color:red;">` </p>
+  1. **external style**: `style.css` (separation of concern)
+  2. **embedded/internal styles**: `<style> </style>`
+  3. **inline styles**: `<p styles="color:red; font-size: 18px;">`This is an inline style </p>
 
 #### CSS selector (selector { declaration - property: value; })
 ```
@@ -308,6 +308,88 @@ Section 3. Introduction to Front-End Technology
     color: red;
     font-size: 18px;
   }
+```
+
+#### 1. external style**: `style.css` (separation of concern)
+##### `index.html`
+
+```
+  <!DOCTYPE html>
+
+  <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>external style</title>
+      <link href="style.css" rel="stylesheet" type="text/css" /> 
+    </head>
+
+    <body>
+      <p>This is an external style </p>
+    </body>
+
+  </html>
+```
+
+##### `style.css`
+
+```
+  p {
+    color: red;
+    font-size: 18px;
+  }
+```
+
+#### 2. embedded/internal styles
+##### `index.html`
+
+```
+  <!DOCTYPE html>
+
+  <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>embedded/internal styles</title>
+      <style>
+         p {
+           color: red;
+           font-size: 18px;
+         }
+      </style>
+    </head>
+
+    <body>
+      <p>This is an embedded/internal styles </p>
+    </body>
+
+  </html>
+```
+
+#### 3. inline styles
+##### `index.html`
+
+```
+  <!DOCTYPE html>
+
+  <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>inline style</title>
+    </head>
+
+    <body>
+      <p styles="color:red; font-size: 18px;">This is an inline style </p>
+    </body>
+
+  </html>
 ```
 
 ### 3.5. JavaScript
@@ -322,6 +404,93 @@ Section 3. Introduction to Front-End Technology
 - Update data within the page/browser
 - Client-side form validation
 - Manipulate page elements
+
+#### Basic JavaScript page structure
+```
+  <!DOCTYPE html>
+
+  <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Basic HTML JavaScript</title>
+      <script>
+        // write javascript code here
+      </script>
+    </head>
+
+    <body>
+      <p>This is Basic HTML JavaScript page </p>
+    </body>
+
+  </html>
+```
+
+- Scripts can be written at different places:
+  1. **external script**: `script.js` (separation of concern)
+  2. **embedded/internal script (under HEAD or BODY tag)**: `<script> </script>`
+
+#### 1. external script: `script.js` (separation of concern)
+##### `index.html`
+```
+  <!DOCTYPE html>
+
+  <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Basic HTML JavaScript</title>
+      <script src="script.js"></script>
+    </head>
+
+    <body>
+      <p>This is Basic HTML JavaScript page </p>
+    </body>
+
+  </html>
+```
+
+##### `script.js`
+
+```
+  // write javascript code here
+  alert('external javascript code executed.');
+```
+
+#### 2. embedded/internal script (under HEAD or BODY tag)
+##### `index.html`
+```
+  <!DOCTYPE html>
+
+  <html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Basic HTML JavaScript</title>
+      <script>
+          // write javascript code here
+          alert('embedded/internal javascript code executed.');
+      </script>
+    </head>
+
+    <body>
+      <p>This is Basic HTML JavaScript page </p>
+
+
+      <script>
+          // write javascript code here
+          alert('embedded/internal javascript code executed.');
+      </script>
+    </body>
+
+  </html>
+```
 
 #### JavaScript Frameworks/libraries 
 - already have the various codes and common utilities ready
