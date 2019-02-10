@@ -4,16 +4,16 @@ We use the Internet for Banking, Shopping, Ticket Bookings, Music/Entertainment,
 
 Topics include
 ---------------------
-  1. Introduction 
-  2. Introduction to Web World 
-  3. Introduction to Front-End Technology 
-  4. Introduction to Back-End Technology 
-  5. Other Supporting Technology
+1. Introduction 
+2. Introduction to Web World 
+3. Introduction to Front-End Technology 
+4. Introduction to Back-End Technology 
+5. Other Supporting Technology
 
 Section 1. Introduction 
 ---------------------
 ### 1.1. Welcome
-Hi All, I'm Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional, I wanna welcome you to Web Design Development Foundations-Web Technology Fundamentals. This content is designed to introduce the fundamental concepts, surrounding terminology, technology, techniques, terms that are used to create and run the web. For anyone new to the web the vast number of terms, abbreviations, and processes involved can be a little bit overwhelming, disturbing. It's my goal to explain in the core, basic terms how the web works, Client, Servers, Browsers, Front End, Back End and various terminology involved, also how the technology all fits together.
+Hi All, I'm `Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`, I wanna welcome you to Web Design Development Foundations-Web Technology Fundamentals. This content is designed to introduce the fundamental concepts, surrounding terminology, technology, techniques, terms that are used to create and run the web. For anyone new to the web the vast number of terms, abbreviations, and processes involved can be a little bit overwhelming, disturbing. It's my goal to explain in the core, basic terms how the web works, Client, Servers, Browsers, Front End, Back End and various terminology involved, also how the technology all fits together.
 
 This course contents roadmap to becoming a Web Designer/Developer.
 
@@ -35,13 +35,13 @@ Section 2. Introduction to Web World
 - Transfer data using HTTP (Hyper Text Transfer Protocol)
 
 #### The Web 
-  Communication/series of interaction between Clients & Servers
+Communication/series of interaction between Clients & Servers
 
 #### Clients
-  Devices which requests and renders web contents. Some of the popular clients are Browsers, Mobile Apps, Screen Reader Devices etc
+Devices which requests and renders web contents. Some of the popular clients are Browsers, Mobile Apps, Screen Reader Devices etc
 
 #### Servers
-  Applications which deliver Web Contents, Services to Clients
+Applications which deliver Web Contents, Services to Clients
 
 ### 2.2. Client-Server Interaction Model
 #### Browser 
@@ -57,10 +57,10 @@ Section 2. Introduction to Web World
 ```
 
 #### Static Sites
-  Simply shows content (which is `not change frequently`) requested by the client without any additional processing (Static sites pages usually consists of Front end technologies like HTML, CSS, JavaScript)
+Simply shows content (which is `not change frequently`) requested by the client without any additional processing (Static sites pages usually consists of Front end technologies like HTML, CSS, JavaScript)
   
 #### Dynamic Sites
-  First Business Logic execute by Web Applications like ASP, PHP, Ruby on Rails etc. than browser shows content (`latest/updated`) requested by the client (Dynamic sites pages usually consists of Front end technologies like HTML, CSS, JavaScript, in combination with some Back end technology like ASP, PHP, Ruby on Rails etc.)
+First Business Logic execute by Web Applications like ASP, PHP, Ruby on Rails etc. than browser shows content (`latest/updated`) requested by the client (Dynamic sites pages usually consists of Front end technologies like HTML, CSS, JavaScript, in combination with some Back end technology like ASP, PHP, Ruby on Rails etc.)
 
 ### 2.3. DNS (Domain Name Server)
 - Every site have unique `IP (Internet Protocol)` address used to identify location `(http://www.google.com = 169.20.127.243)`
@@ -94,17 +94,17 @@ Section 2. Introduction to Web World
 
 #### Some Common web protocols
 - **FTP (File Transfer Protocol)**
-  Typically used to `transfer large files` and its ideal for uploading or downloading files to your site
+Typically used to `transfer large files` and its ideal for uploading or downloading files to your site
 - **SMTP (Simple Mail Transfer Protocol)**
-  The Standard web protocol for `sending email` across the web. Most email clients use SMTP for sending and receiving emails
+The Standard web protocol for `sending email` across the web. Most email clients use SMTP for sending and receiving emails
 - **POP (Post Office Protocol)**
-  POP typically used to `receive emails`.
+POP typically used to `receive emails`.
 - **RTP (Real-Time Transfer Protocol)**
-  Standard protocol for `delivering/serving audio or video` over the web. Its commonly used in voice over and chat applications.
+Standard protocol for `delivering/serving audio or video` over the web. Its commonly used in voice over and chat applications.
 - **RTMP (Real Time Messaging Protocol)**
-  Developed by Macromedia (Adobe Corp.) for `streaming audio video and data` over the Internet, between a Flash player and a server.
+Developed by Macromedia (Adobe Corp.) for `streaming audio video and data` over the Internet, between a Flash player and a server.
 - **HTTPS (Hypertext Transfer Protocol Secure)**
-  HTTP layered with a security protocol. Usually used for e-commerce or other secure transactions, payment gateways.
+HTTP layered with a security protocol. Usually used for e-commerce or other secure transactions, payment gateways.
 
 ### 2.6. URL (Uniform Resource Locator)
 URL Uniform Resource Locator OR (Universal Resource Locator) specifies its location on a computer network (web address, web path, web site name).
@@ -122,15 +122,15 @@ URL Uniform Resource Locator OR (Universal Resource Locator) specifies its locat
 
 #### URL path/port
 
-  http://www.yahoo.com/products/product1.html
+http://www.yahoo.com/products/product1.html
 
-  http://www.yahoo.com:80 (`80 = port number (80 is default port`))
+http://www.yahoo.com:80 (`80 = port number (80 is default port`))
 
 #### Top level domain 
- - .com
- - .net
- - .org
- - .info
+- .com
+- .net
+- .org
+- .info
 
 ### 2.7. How browser works
 The browser uses HTTP to communicate with Web Server and request pages, content. Browsers rendering engine translates/renders pages and displays the contents as per support.
@@ -184,13 +184,13 @@ Section 3. Introduction to Front-End Technology
 - Front End Design is typically the `UI, Layout, typography/fonts, images` and many other visual elements/aspects shown on the web page and their styling.
 - One can also refer it as usability and user experience design as well
 
-#### 3 pillars / core Languages/technologies used for Frond End Design/Development 
-- HTML (HyperText Markup Language)
-- CSS (Cascading Style Sheet)
-- JavaScript (JS)
+#### 3 pillars / core Languages/technologies used for Frond End Web Design/Development
+1. **HTML (HyperText Markup Language)** - Essential Structure / Content, Redable and convey structure to user
+2. **CSS (Cascading Style Sheet)** - Page Design / Layouts / Styling / Formattings, look and feel
+3. **JavaScript (JS)** - Page Behavior, Logic, Conditions and Validations
 
 #### Front End Design/Web Design
-  Web Design is creating and designing web pages, designing for all user interfaces/experiences like browsers, screen readers, mobiles, printers
+Web Design is creating and designing web pages, designing for all user interfaces/experiences like browsers, screen readers, mobiles, printers
 
 #### Front-End Design/Development includes
 - The visual part of web design
@@ -228,12 +228,14 @@ Section 3. Introduction to Front-End Technology
 - Use Video and blended media
 
 #### Client Side Scripting
-  Script executed in the browser environment (JavaScript)
+Script executed in the browser environment (JavaScript)
 
 ### 3.2. HTML (HyperText Markup Language)
 #### HTML
 - HyperText Markup Language
 - The Standard/foundation/gateway language used for creating/structuring content on the web
+- We can create a static website by HTML only
+- NO HTML = NO WEB PAGE :)
 
 #### History of HTML
 | Year          | History       |
@@ -251,8 +253,8 @@ Section 3. Introduction to Front-End Technology
 | 2014          | W3C Recommendation: HTML5 |
 
 ### 3.3. HTML page structuring
-- HTML is very easy to learn
-- HTML page consists of DTD & TAGS for different visual aspects
+- HTML Syntax is very simple easy to learn
+- HTML page consists of `DTD & TAGS` for different visual aspects
 
 #### Basic HTML page structure
 ```
@@ -395,7 +397,7 @@ Section 3. Introduction to Front-End Technology
 ### 3.5. JavaScript
 - Created and introduced by `Brendan Eich (Netscape) in 1995` to increase and expand the capabilities of the native browser.
 - A client-side scripting language used to add interactivity and functionality to websites 
-- JavaScript it has nothing to do with Java ...!!! NOT AT RELATED to JAVA)
+- JavaScript it has nothing to do with Java ...!!! NOT AT ALL RELATED to JAVA)
 
 #### Common usage of JavaScript
 - Build interactive elements, Rollover, Button clicks, Menus
@@ -429,8 +431,8 @@ Section 3. Introduction to Front-End Technology
 ```
 
 - Scripts can be written at different places:
-  1. **external script**: `script.js` (separation of concern)
-  2. **embedded/internal script (under HEAD or BODY tag)**: `<script> </script>`
+1. **external script**: `script.js` (separation of concern)
+2. **embedded/internal script (under HEAD or BODY tag)**: `<script> </script>`
 
 #### 1. external script: `script.js` (separation of concern)
 ##### `index.html`
@@ -527,7 +529,7 @@ JPEG / JPG, GIF and PNG files type are the standard image formats for the web gr
 - GIFs support transparency and limited animation
 
 #### JPEG / JPG (Joint Photographic Experts Group)
-  Image compression standard established in 1992 and widely used for areas such as the web and digital photography, often shortened to the file extension "JPG"
+Image compression standard established in 1992 and widely used for areas such as the web and digital photography, often shortened to the file extension "JPG"
 
 ##### JPEG / JPG characteristics
 - Supports millions of colors
@@ -536,50 +538,50 @@ JPEG / JPG, GIF and PNG files type are the standard image formats for the web gr
 - JPGs are compressed each time they saved
 
 #### PNG (Portable Network Graphic)
-  Created in 1995 to improve over JPEG and replace the GIF by open source community over copyright disputes/license issues with GIF
+Created in 1995 to improve over JPEG and replace the GIF by open source community over copyright disputes/license issues with GIF
 
 ##### PNG characteristics
-  - Like GIFs Support transparency
-  - Uses lossless compression
-  - Like JPEG supports millions of colors
-  - Older browser support is lacking
+- Like GIFs Support transparency
+- Uses lossless compression
+- Like JPEG supports millions of colors
+- Older browser support is lacking
 
 #### SVG (Scalable Vector Graphics)
-  - SVG is a vector graphics format
-  - Can be scaled independently of resolution
-  - Graphics are written in SVG markup which makes them editable through the code
-  - Since they are markup they can be further styled through CSS
-  - SVG is now widely supported among latest devices and browsers
+- SVG is a vector graphics format
+- Can be scaled independently of resolution
+- Graphics are written in SVG markup which makes them editable through the code
+- Since they are markup they can be further styled through CSS
+- SVG is now widely supported among latest devices and browsers
 
 #### Tools for creating graphics/images
-  - Adobe Photoshop
-  - Adobe illustrator
-  - Adobe Fireworks
-  - CorelDraw
-  - GIMP
+- Adobe Photoshop
+- Adobe illustrator
+- Adobe Fireworks
+- CorelDraw
+- GIMP
 
 ### 3.7. API (Application Programming Interfaces)
 An exposed set of functions that allow other applications to access features and functionality without giving direct access to source code.
 
 #### Widely used API Examples
-  - Using Google Maps
-  - Weather reports
-  - Youtube videos
-  - Facebook feeds
-  - Amazons latest offers
-  - Latest sports scores
-  - Latest Newsfeeds
+- Using Google Maps
+- Weather reports
+- Youtube videos
+- Facebook feeds
+- Amazons latest offers
+- Latest sports scores
+- Latest Newsfeeds
 
 ### 3.8. HTML5 APIs
 - HTML is used to create web pages/websites with simple standard elements
 - HTML5 introduced following advanced APIs to avoid third-party plug-in support/dependency
 
 #### HTML5 APIs Examples
-  - Media API - Audio/Video control
-  - Geo-Location API - Access current location of users
-  - Drag and Drop API - Drag and Drop functionality
-  - App Cache API - Storing data offline/caching for future use
-  - Canvas API - Draw directly in the browser
+- Media API - Audio/Video control
+- Geo-Location API - Access current location of users
+- Drag and Drop API - Drag and Drop functionality
+- App Cache API - Storing data offline/caching for future use
+- Canvas API - Draw directly in the browser
 
 ### 3.9. Web Fonts
 - Earlier we use to use fonts available and installed on user machine like Arial, Verdana, Times, Sherif etc.
@@ -596,21 +598,21 @@ Section 4. Introduction to Back-End Technology
 ---------------------
 ### 4.1. Server Side scripting
 Any programming/scripting that runs on the web server is referred to as Server Side scripting. It may be:
-  - Processing Form data
-  - Managing users
-  - Booking a Movie Tickets, Travel, Hotel
-  - Online purchase
+- Processing Form data
+- Managing users
+- Booking a Movie Tickets, Travel, Hotel
+- Online purchase
 
 #### Server Side Scripting languages
-  - CGI (Common Gateway Interface)
-  - Perl
-  - ASP (Active Server Pages)
-  - Java 
-  - JSP (Java Server Pages)
-  - PHP (HyperText PreProcessor / Personal Home Page)
-  - .NET
-  - Cold Fusion CFML
-  - NodeJS
+- CGI (Common Gateway Interface)
+- Perl
+- ASP (Active Server Pages)
+- Java 
+- JSP (Java Server Pages)
+- PHP (HyperText PreProcessor / Personal Home Page)
+- .NET
+- Cold Fusion CFML
+- NodeJS
 
 ### 4.2. PHP
 - In year `1994 Rasmus Lerdorf` has written a set of CGI scripts to track a visitor to his online resume. He opens sources the scripts and named it Personal Home Page (PHP).
@@ -720,19 +722,19 @@ Section 5. Other Supporting Technology
 - D3
 
 ### 5.2. Frameworks and Boilerplates
-Collection of prebuilt HTML, CSS and JavaScript files designed to speed up, make the development of sites easier 
-  HTML (readymade templates, semantic structure)
-  CSS (ready typography, layouts, Browser resets)
-  JavaScript (enhanced features modal windows, tooltips, menus)
-  Examples - Bootstrap, Angular, HTML Shiv Shim
+Collection of prebuilt HTML, CSS and JavaScript files designed to speed up, make the development of sites easier. 
+- **HTML** - (readymade templates, semantic structure)
+- **CSS** - (ready typography, layouts, Browser resets)
+- **JavaScript** - (enhanced features modal windows, tooltips, menus)
+- **`Examples** - Bootstrap, Angular, HTML Shiv Shim`
 
 #### Boilerplate
-  - A set of templates build around a specific starting point or goal
-  - Provide a starting point for building sites or apps (latest features need to work/support in older browsers)
+- A set of templates build around a specific starting point or goal
+- Provide a starting point for building sites or apps (latest features need to work/support in older browsers)
 
 #### Framework
-  - A collection of assets designed to help build sites or applications faster, easier
-  - Includes CSS grids, javascript libraries or helpful scripts and HTML templates
+- A collection of assets designed to help build sites or applications faster, easier
+- Includes CSS grids, javascript libraries or helpful scripts and HTML templates
 
 ### 5.3. CSS PreProcessors
 - CSS is static stylesheet language, CSS PreProcessors help to write CSS more efficiently, semantically with programming features like variables, functions, maths operations, conditionals etc.
@@ -760,14 +762,14 @@ A semantic markup language containing rules for defining document structure and 
 ```
 
 ### Common uses of AML
-  - RSS feeds - online contents
-  - AJAX Applications - store or write data
-  - Flash/XML
-  - External APIs
+- RSS feeds - online contents
+- AJAX Applications - store or write data
+- Flash/XML
+- External APIs
 
 ### Associate technologies with XML
-  - XSL & XSLT
-  - XPath
+- XSL & XSLT
+- XPath
 
 ### 5.5. AJAX (Asynchronous JavaScript and XML)
 - Not a new technology 
