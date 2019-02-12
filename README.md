@@ -1,6 +1,6 @@
 Web Design Development Foundations-Web Technology Fundamentals
 =====================
-We use the Internet for Banking, Shopping, Ticket Bookings, Music/Entertainment, and Social Media, but do you really know how the web works? Here I introduce the technology that makes the web run, the terminology involved, and how it all comes together to power the websites we know and love. Will cover various term/technologies involved like (HTML, CSS, JavaScript, URL, DNS, HTTP), and explains what separates the front end (what we see), from the back end (what we don't) on the web,databases, servers and the technology that makes the web work.
+We use the Internet for Banking, Shopping, Ticket Bookings, Music/Entertainment, and Social Media, but do you really know how the web works? Here I introduce the technology that makes the web run, the terminology involved, and how it all comes together to power the websites we know and love. Will cover various term/technologies involved like (HTML, CSS, JavaScript, URL, DNS, HTTP), and explains what separates the front end (what we see), from the back end (what we don't) on the web, databases, servers and the technology that makes the web work.
 
 Topics include
 ---------------------
@@ -55,6 +55,13 @@ Applications which deliver Web Contents, Services to Clients
 3. DNS translates URL into `IP (Internet Protocol)` address (`172.16.0.0`) -> 
 4. Browser use DNS to locate host server and send request of content (in the form of HTML page, Images, CSS, JavaScript).
 ```
+
+<p>
+  <figure>
+    &nbsp;&nbsp;&nbsp; <img src="./images/client_server_request_response.png" title="Request Response Mechanism Image" alt="Client Server, Request Response Mechanism" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - Client Server, Request Response Mechanism</figcaption>
+  </figure>
+</p>
 
 #### Static Sites
 Simply shows content (which is `not change frequently`) requested by the client without any additional processing (Static sites pages usually consists of Front end technologies like HTML, CSS, JavaScript)
@@ -230,6 +237,12 @@ Web Design is creating and designing web pages, designing for all user interface
 #### Client Side Scripting
 Script executed in the browser environment (JavaScript)
 
+<p>
+  <figure>
+    <img src="./images/html5.png" alt="HTML5 Logo" title="HTML5" border="2" align="right"/>
+  </figure>
+</p>
+
 ### 3.2. HTML (HyperText Markup Language)
 #### HTML
 - HyperText Markup Language
@@ -295,6 +308,12 @@ Script executed in the browser environment (JavaScript)
 #### Tools for building web sites-web pages/writing HTML
 - Text Editor/HTML Editor like `NotePad, NotePad++, SublimeText, Atom, Brackets, Coda, Visual Studio Code, DreamWeaver` etc.
 - To view output of .html pages we need Browsers like - `Google Chrome, Mozilla Firefox, Internet Explorer, Safari` etc.
+
+<p>
+  <figure>
+    <img src="./images/css3.png" alt="CSS3 Logo" title="CSS3" border="2" align="right"/>
+  </figure>
+</p>
 
 ### 3.4. CSS (Cascading Style Sheets)
 - CSS is presentational, styling, formatting language developed to control look and feel of HTML files
@@ -393,6 +412,12 @@ Script executed in the browser environment (JavaScript)
 
   </html>
 ```
+
+<p>
+  <figure>
+    <img src="./images/javascript_logo_1.png" alt="JavaScript Logo" title="JavaScript" border="2" width="200" align="right"/>
+  </figure>
+</p>
 
 ### 3.5. JavaScript
 - Created and introduced by `Brendan Eich (Netscape) in 1995` to increase and expand the capabilities of the native browser.
