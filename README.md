@@ -3,13 +3,13 @@ Web Design Development Foundations-Web Technology Fundamentals
 We use the Internet for Banking, Shopping, Ticket Bookings, Music/Entertainment, and Social Media, but do you really know how the web works? Here I introduce the technology that makes the web run, the terminology involved, and how it all comes together to power the websites we know and love. Will cover various term/technologies involved like (HTML, CSS, JavaScript, URL, DNS, HTTP), and explains what separates the front end (what we see), from the back end (what we don't) on the web, databases, servers and the technology that makes the web work.
 
 Topics include
-=====================
-1. [Introduction](#section-1.-introduction)
-2. [Introduction to Web World](#section-2.-introduction-to-web-world)
-3. [Introduction to Front-End Technology](#section-3.-introduction-to-front-end-technology)
-4. [Introduction to Back-End Technology](#section-4.-introduction-to-back-end-technology)
-5. [Other Supporting Technology](#section-5.-other-supporting-technology)
-6. [Whats Next Step?](#section-6.-whats-next-step?)
+===================== 
+1. [Introduction](#section-1-introduction)
+2. [Introduction to Web World](#section-2-introduction-to-web-world)
+3. [Introduction to Front-End Technology](#section-3-introduction-to-front-end-technology)
+4. [Introduction to Back-End Technology](#section-4-introduction-to-back-end-technology)
+5. [Other Supporting Technology](#section-5-other-supporting-technology)
+6. [Whats Next Step?](#section-6-whats-next-step?)
 
 Section 1. Introduction 
 =====================
