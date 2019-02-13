@@ -3,15 +3,16 @@ Web Design Development Foundations-Web Technology Fundamentals
 We use the Internet for Banking, Shopping, Ticket Bookings, Music/Entertainment, and Social Media, but do you really know how the web works? Here I introduce the technology that makes the web run, the terminology involved, and how it all comes together to power the websites we know and love. Will cover various term/technologies involved like (HTML, CSS, JavaScript, URL, DNS, HTTP), and explains what separates the front end (what we see), from the back end (what we don't) on the web, databases, servers and the technology that makes the web work.
 
 Topics include
----------------------
-1. Introduction 
-2. Introduction to Web World 
-3. Introduction to Front-End Technology 
-4. Introduction to Back-End Technology 
-5. Other Supporting Technology
+=====================
+1. [Introduction](#section-1.-introduction)
+2. [Introduction to Web World](#section-2.-introduction-to-web-world)
+3. [Introduction to Front-End Technology](#section-3.-introduction-to-front-end-technology)
+4. [Introduction to Back-End Technology](#section-4.-introduction-to-back-end-technology)
+5. [Other Supporting Technology](#section-5.-other-supporting-technology)
+6. [Whats Next Step?](#section-6.-whats-next-step?)
 
 Section 1. Introduction 
----------------------
+=====================
 ### 1.1. Welcome
 Hi All, I'm `Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`, I wanna welcome you to Web Design Development Foundations-Web Technology Fundamentals. This content is designed to introduce the fundamental concepts, surrounding terminology, technology, techniques, terms that are used to create and run the web. For anyone new to the web the vast number of terms, abbreviations, and processes involved can be a little bit overwhelming, disturbing. It's my goal to explain in the core, basic terms how the web works, Client, Servers, Browsers, Front End, Back End and various terminology involved, also how the technology all fits together.
 
@@ -21,7 +22,7 @@ This course contents roadmap to becoming a Web Designer/Developer.
 This course is for every Web/Internet User, fresher as well as an experienced Web Designer/Developer who wants to learn-brush up-cover up various terms/techniques/acronyms/abbreviations used in Web/Internet Design/Development world.
 
 Section 2. Introduction to Web World
----------------------
+=====================
 ### 2.1. How does the web work?
 #### The Internet
   Massive networks of millions of computers all over the world that use to share and transmit information trough following protocols/mediums
@@ -184,7 +185,7 @@ Web stacks are groups of software that work with each other to build and process
 | MARS          | MySql Apache Ruby Solaris |
 
 Section 3. Introduction to Front-End Technology
----------------------
+=====================
 ### 3.1. Front End Design (Client Side)
 #### Front End (Client Side) Design refers to:
 - The `visual part/User Interface layer (what we see)` of websites/applications
@@ -620,7 +621,7 @@ An exposed set of functions that allow other applications to access features and
   - Adobe Typekit
 
 Section 4. Introduction to Back-End Technology
----------------------
+=====================
 ### 4.1. Server Side scripting
 Any programming/scripting that runs on the web server is referred to as Server Side scripting. It may be:
 - Processing Form data
@@ -732,7 +733,7 @@ Usually refers to distributed processes over the internet
 - Allows to manage the project, publish files and store revisions, sharing and collaborating
 
 Section 5. Other Supporting Technology
----------------------
+=====================
 ### 5.1. JavaScript libraries
 - Collection of pre-written methods/functions features that make development faster and easier
 - Extends the functionality of native JavaScript, may be focused sets like date.js, moment.js to jQuery a broader task oriented library
@@ -807,3 +808,7 @@ A semantic markup language containing rules for defining document structure and 
 - RSS uses a family of standard web feed formats to publish frequently updated information like blog entries, news headlines, audio, video. 
 - An RSS document (called "feed", "web feed", or "channel") includes full or summarised text, and metadata, like publishing date and author's name.
 - RSS is a standardized XML base format
+
+Section 6. Whats Next Step?
+=====================
+Congratulations! You have completed Web Design Development Foundations-Web Technology Fundamentals lessons. Now you have a good idea of how web works and technologies behind web. Your next step could be Mastering HTML, lets begin you web design-development journey with [Learning HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials). Best of Luck! Happy Learning!
