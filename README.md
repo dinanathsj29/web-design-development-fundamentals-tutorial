@@ -9,7 +9,7 @@ Topics include
 3. [Introduction to Front-End Technology](#section-3-introduction-to-front-end-technology)
 4. [Introduction to Back-End Technology](#section-4-introduction-to-back-end-technology)
 5. [Other Supporting Technology](#section-5-other-supporting-technology)
-6. [Whats Next Step?](#section-6-whats-next-step?)
+6. [Whats Next Step?](#section-6-whats-next-step)
 
 Section 1. Introduction 
 =====================
