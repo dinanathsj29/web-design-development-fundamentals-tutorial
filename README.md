@@ -200,9 +200,9 @@ Section 3. Introduction to Front-End Technology
 - One can also refer it as usability and user experience design as well
 
 #### 3 pillars / core Languages/technologies used for Frond End Web Design/Development
-1. **HTML (HyperText Markup Language)** - Essential Structure / Content, Redable and convey structure to user
-2. **CSS (Cascading Style Sheet)** - Page Design / Layouts / Styling / Formattings, look and feel
-3. **JavaScript (JS)** - Page Behavior, Logic, Conditions and Validations
+1. **HTML (HyperText Markup Language)** - Markup language, Essential Page Structure/Content, Redable and convey structure to user, Text Layout Model, page Mark-up, Text, Tags, Data, details for pages, Images, Tables, Anchor Links, Forms
+2. **CSS (Cascading Style Sheet)** - Style Sheet language, Page Design / Presentation / Layouts / Styling / Formattings, look and feel, Creative part of Web Pages
+3. **JavaScript (JS)** - Scripting language, Dynamic Page Behaviour, Logics, Conditions and Validations, Events, Interactivity with User, Dynamic updates in a Web Page
 
 #### Front End Design/Web Design
 Web Design is creating and designing web pages, designing for all user interfaces/experiences like browsers, screen readers, mobiles, printers
