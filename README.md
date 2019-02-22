@@ -4,14 +4,14 @@ We use the Internet for Banking, Shopping, Ticket Bookings, Music/Entertainment,
 
 Topics include
 ===================== 
-1. [Introduction](#section-1-introduction)
+1. [Course Introduction](#section-1-course-introduction)
 2. [Introduction to Web World](#section-2-introduction-to-web-world)
 3. [Introduction to Front-End Technology](#section-3-introduction-to-front-end-technology)
 4. [Introduction to Back-End Technology](#section-4-introduction-to-back-end-technology)
 5. [Other Supporting Technology](#section-5-other-supporting-technology)
 6. [Whats Next Step?](#section-6-whats-next-step)
 
-Section 1. Introduction 
+Section 1. Course Introduction
 =====================
 ### 1.1. Welcome
 Hi All, I'm **`Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`**, I wanna welcome you to Web Design Development Foundations-Web Technology Fundamentals. This content is designed to introduce the fundamental concepts, surrounding terminology, technology, techniques, terms that are used to create and run the web. For anyone new to the web the vast number of terms, abbreviations, and processes involved can be a little bit overwhelming, disturbing. It's my goal to explain in the core, basic terms how the web works, Client, Servers, Browsers, Front End, Back End and various terminology involved, also how the technology all fits together.
