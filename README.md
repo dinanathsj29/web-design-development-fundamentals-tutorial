@@ -14,7 +14,7 @@ Topics include
 Section 1. Introduction 
 =====================
 ### 1.1. Welcome
-Hi All, I'm `Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`, I wanna welcome you to Web Design Development Foundations-Web Technology Fundamentals. This content is designed to introduce the fundamental concepts, surrounding terminology, technology, techniques, terms that are used to create and run the web. For anyone new to the web the vast number of terms, abbreviations, and processes involved can be a little bit overwhelming, disturbing. It's my goal to explain in the core, basic terms how the web works, Client, Servers, Browsers, Front End, Back End and various terminology involved, also how the technology all fits together.
+Hi All, I'm **`Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`**, I wanna welcome you to Web Design Development Foundations-Web Technology Fundamentals. This content is designed to introduce the fundamental concepts, surrounding terminology, technology, techniques, terms that are used to create and run the web. For anyone new to the web the vast number of terms, abbreviations, and processes involved can be a little bit overwhelming, disturbing. It's my goal to explain in the core, basic terms how the web works, Client, Servers, Browsers, Front End, Back End and various terminology involved, also how the technology all fits together.
 
 This course contents roadmap to becoming a Web Designer/Developer.
 
@@ -811,4 +811,4 @@ A semantic markup language containing rules for defining document structure and 
 
 Section 6. Whats Next Step?
 =====================
-Congratulations! You have completed Web Design Development Foundations-Web Technology Fundamentals lessons. Now you have a good idea of how web works and technologies behind web. Your next step could be Mastering HTML, lets begin your web design-development journey with [Learning HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials). Best of Luck! Happy Learning!
+Congratulations! You have completed Web Design Development Foundations-Web Technology Fundamentals lessons. Thank You for looking into Web Fundametals. Now you have a good idea of how web works and technologies behind web. Your next step could be Mastering HTML, lets begin your web design-development journey with [Learning HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials). Best of Luck! Happy Learning!
