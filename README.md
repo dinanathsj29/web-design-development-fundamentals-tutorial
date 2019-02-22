@@ -809,6 +809,6 @@ A semantic markup language containing rules for defining document structure and 
 - An RSS document (called "feed", "web feed", or "channel") includes full or summarised text, and metadata, like publishing date and author's name.
 - RSS is a standardized XML base format
 
-Section 6. Whats Next Step?
+Section 6. What's Next Step?
 =====================
 Congratulations! You have completed Web Design Development Foundations-Web Technology Fundamentals lessons. Thank You for looking into Web Fundametals. Now you have a good idea of how web works and technologies behind web. Your next step could be Mastering HTML, lets begin your web design-development journey with [Learning HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials). Best of Luck! Happy Learning!
