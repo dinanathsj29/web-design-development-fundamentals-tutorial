@@ -49,6 +49,13 @@ Applications which deliver Web Contents, Services to Clients
 - The browser is Software/application helps to visit, view, accessing information and take the best use of websites/web pages
 - Popular browsers are `Google Chrome, Mozilla Firefox, Internet Explorer, Safari` etc.
 
+<p align="center">
+  <figure>
+    &nbsp;&nbsp;&nbsp; <img src="./images/browers_all_2.png" alt="all browers" title="widely used browsers" width="400" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - Widely used modern browsers</figcaption>
+  </figure>
+</p>
+
 #### Request <--> Response Mechanism 
 ```
 1. User Type in `URL (Uniform Resource Locator)` like `http://www.yahoo.com` -> 
