@@ -51,7 +51,7 @@ Applications which deliver Web Contents, Services to Clients
 
 <p>
   <figure>
-    &nbsp;&nbsp;&nbsp; <img src="./images/browers_all_2.png" alt="all browers" title="widely used browsers" width="400" border="2" />
+    &nbsp;&nbsp;&nbsp; <img src="./images/browers_all_2.png" alt="all browsers" title="widely used browsers" width="400" border="2" />
     <figcaption>&nbsp;&nbsp;&nbsp; Image - Widely used modern browsers</figcaption>
   </figure>
 </p>
