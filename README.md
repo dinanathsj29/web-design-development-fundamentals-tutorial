@@ -51,7 +51,7 @@ Applications which deliver Web Contents, Services to Clients
 
 <p>
   <figure>
-    &nbsp;&nbsp;&nbsp; <img src="./images/browers_all_2.png" alt="all browsers" title="widely used browsers" width="400" border="2" />
+    &nbsp;&nbsp;&nbsp; <img src="./_examples_web_design_development/images/browsers_all_2.png" alt="all browsers" title="widely used browsers" width="400" border="2" />
     <figcaption>&nbsp;&nbsp;&nbsp; Image - Widely used modern browsers</figcaption>
   </figure>
 </p>
@@ -66,7 +66,7 @@ Applications which deliver Web Contents, Services to Clients
 
 <p>
   <figure>
-    &nbsp;&nbsp;&nbsp; <img src="./images/client_server_request_response.png" title="Request Response Mechanism Image" alt="Client Server, Request Response Mechanism" border="2" />
+    &nbsp;&nbsp;&nbsp; <img src="./_examples_web_design_development/images/client_server_request_response.png" title="Request Response Mechanism Image" alt="Client Server, Request Response Mechanism" border="2" />
     <figcaption>&nbsp;&nbsp;&nbsp; Image - Client Server, Request Response Mechanism</figcaption>
   </figure>
 </p>
@@ -128,7 +128,7 @@ URL Uniform Resource Locator OR (Universal Resource Locator) specifies its locat
 `URL = http://www.yahoo.com` <br/>
 
 | URL Parts             | Meaning/Description       |
-| -------------         |:-------------------------:|
+| -------------         |------------------------|
 | http                  | protocol                  |
 | //www.yahoo.com:8080  | resource name             | 
 | www                   | sub-domain (Most of cases sub-domain is not required ie you can type http://yahoo.com) |
@@ -159,7 +159,7 @@ The browser uses HTTP to communicate with Web Server and request pages, content.
 #### Common Rendering Engines
 
 | Engine        | Browser       |
-| ------------- |:-------------:|
+| ------------- |------------|
 | Trident       | Internet Explorer, (AOL - America Online), Windows Mobile |
 | Presto        | Opera |
 | Gecko         | Mozilla FF, Camino  |
@@ -184,7 +184,7 @@ Web stacks are groups of software that work with each other to build and process
 
 #### Common web stacks
 | Web Stack        | Full Form (Technologies)       |
-| ------------- |:-------------:|
+| ------------- |------------|
 | LAMP          | Linux Apache MySql Php / Linux Apache MySql Perl/Python |
 | MAMP          | Macintosh Apache MySql Php |
 | WAMP          | Windows Apache MySql Php |
@@ -247,7 +247,7 @@ Script executed in the browser environment (JavaScript)
 
 <p>
   <figure>
-    <img src="./images/html5.png" alt="HTML5 Logo" title="HTML5" border="2" align="right"/>
+    <img src="./_examples_web_design_development/images/html5.png" alt="HTML5 Logo" title="HTML5" border="2" align="right"/>
   </figure>
 </p>
 
@@ -260,7 +260,7 @@ Script executed in the browser environment (JavaScript)
 
 #### History of HTML
 | Year          | History       |
-| ------------- |:-------------:|
+| ------------- |------------|
 | 1990          | Specification Drafted in Mid 90s by Tim Berners Lee |
 | 1991          | Tim Berners Lee published document called "HTML Tags" |
 | 1995          | HTML 2.0 ('standard' HTML) |
@@ -301,7 +301,7 @@ Script executed in the browser environment (JavaScript)
 - Usually the first line of an HTML page, its an instruction to the web browser about what version of HTML the page is written and rules to parse/render.
 
 | HTML Version    | DTD           |
-| -------------   |:-------------:|
+| -------------   |------------|
 | HTML5           |  Document Type Declaration (&lt;!DOCTYPE html&gt; |
 | XHTML           |  Document Type Definition (.DTD file) &lt;!DOC TYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt; | 
 | HTML4           |  Document Type Definition (.DTD file) &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt; |
@@ -319,7 +319,7 @@ Script executed in the browser environment (JavaScript)
 
 <p>
   <figure>
-    <img src="./images/css3.png" alt="CSS3 Logo" title="CSS3" border="2" align="right"/>
+    <img src="./_examples_web_design_development/images/css3.png" alt="CSS3 Logo" title="CSS3" border="2" align="right"/>
   </figure>
 </p>
 
@@ -423,7 +423,7 @@ Script executed in the browser environment (JavaScript)
 
 <p>
   <figure>
-    <img src="./images/javascript_logo_1.png" alt="JavaScript Logo" title="JavaScript" border="2" width="200" align="right"/>
+    <img src="./_examples_web_design_development/images/javascript_logo_3.png" alt="JavaScript Logo" title="JavaScript" border="2" width="200" align="right"/>
   </figure>
 </p>
 
@@ -775,7 +775,7 @@ Collection of prebuilt HTML, CSS and JavaScript files designed to speed up, make
 
 #### Popular CSS PreProcessors
 | CSS PreProcessors  | Source created in        | File conversion           |
-| ------------------ |:------------------------:| ------------------------- |
+| ------------------ |-----------------------| ------------------------- |
 | SASS               | (Written in Ruby)        | .scss / .sass -> .css     |
 | Less               | (Written in JavaScript)  | .less -> .css             |
 | Stylus             | (Written in JavaScript)  | .styl -> .css             |
