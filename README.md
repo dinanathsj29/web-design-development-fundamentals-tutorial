@@ -57,6 +57,7 @@ Applications which deliver Web Contents, Services to Clients
 </p>
 
 #### Request <--> Response Mechanism 
+> **Syntax & Example**:
 ```
 1. User Type in `URL (Uniform Resource Locator)` like `http://www.yahoo.com` -> 
 2. URL passed to `DNS (Domain Name Server)` -> 
@@ -278,7 +279,8 @@ Script executed in the browser environment (JavaScript)
 - HTML page consists of `DTD & TAGS` for different visual aspects
 
 #### Basic HTML page structure
-```
+> **Syntax & Example**:
+```html
   <!DOCTYPE html>
 
   <html lang="en">
@@ -332,7 +334,8 @@ Script executed in the browser environment (JavaScript)
   3. **inline styles**: `<p styles="color:red; font-size: 18px;">`This is an inline style </p>
 
 #### CSS selector (selector { declaration - property: value; })
-```
+> **Syntax & Example**:
+```css
   p {
     color: red;
     font-size: 18px;
@@ -341,8 +344,8 @@ Script executed in the browser environment (JavaScript)
 
 #### 1. external style**: `style.css` (separation of concern)
 ##### `index.html`
-
-```
+> **Syntax & Example**:
+```html
   <!DOCTYPE html>
 
   <html lang="en">
@@ -363,8 +366,8 @@ Script executed in the browser environment (JavaScript)
 ```
 
 ##### `style.css`
-
-```
+> **Syntax & Example**:
+```css
   p {
     color: red;
     font-size: 18px;
@@ -373,8 +376,8 @@ Script executed in the browser environment (JavaScript)
 
 #### 2. embedded/internal styles
 ##### `index.html`
-
-```
+> **Syntax & Example**:
+```html
   <!DOCTYPE html>
 
   <html lang="en">
@@ -401,8 +404,8 @@ Script executed in the browser environment (JavaScript)
 
 #### 3. inline styles
 ##### `index.html`
-
-```
+> **Syntax & Example**:
+```html
   <!DOCTYPE html>
 
   <html lang="en">
@@ -441,7 +444,8 @@ Script executed in the browser environment (JavaScript)
 - Manipulate page elements
 
 #### Basic JavaScript page structure
-```
+> **Syntax & Example**:
+```html
   <!DOCTYPE html>
 
   <html lang="en">
@@ -469,7 +473,8 @@ Script executed in the browser environment (JavaScript)
 
 #### 1. external script: `script.js` (separation of concern)
 ##### `index.html`
-```
+> **Syntax & Example**:
+```html
   <!DOCTYPE html>
 
   <html lang="en">
@@ -490,15 +495,16 @@ Script executed in the browser environment (JavaScript)
 ```
 
 ##### `script.js`
-
-```
+> **Syntax & Example**:
+```javascript
   // write javascript code here
   alert('external javascript code executed.');
 ```
 
 #### 2. embedded/internal script (under HEAD or BODY tag)
 ##### `index.html`
-```
+> **Syntax & Example**:
+```html
   <!DOCTYPE html>
 
   <html lang="en">
@@ -782,8 +788,8 @@ Collection of prebuilt HTML, CSS and JavaScript files designed to speed up, make
 
 ### 5.4. XML - eXtensible Markup Language
 A semantic markup language containing rules for defining document structure and data and transfer globally (customized tags) and widely used to share data between multiple applications.
-
-```
+> **Syntax & Example**:
+```xml
 <?xml version="1.0" ?>
 
     <studentDetails>
