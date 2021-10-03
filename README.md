@@ -839,4 +839,4 @@ A semantic markup language containing rules for defining document structure and 
 
 Section 6. What's the next step?
 =====================
-Congratulations! You have completed the Web Design Development Foundation-Web Technology Fundamentals lesson. Thank You for looking into Web Fundamentals. Now you have a good idea of how the web works and the technologies behind the web. Your next step could be Mastering HTML/HTML5 - the MArkup language. Let's begin your web design-development journey with [Learning HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials). Best of Luck! Happy Learning!
+Congratulations! You have completed the Web Design Development Foundation-Web Technology Fundamentals lesson. Thank You for looking into Web Fundamentals. Now you have a good idea of how the web works and the technologies behind the web. Your next step could be Mastering HTML/HTML5 - the Markup language. Let's begin your web design-development journey with [Learning HTML5 Essentials](https://github.com/dinanathsj29/html5-essentials). Best of Luck! Happy Learning!
